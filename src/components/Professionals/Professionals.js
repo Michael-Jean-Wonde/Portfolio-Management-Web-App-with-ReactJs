@@ -15,7 +15,7 @@ const Professionals = ({
   return (
     <div className="professional">
       <div className="info">
-        <Link to={`/professionals/${id}`} className="title">
+        <Link to='/singleProfessional' className="title">
           <p>{title}</p>
         </Link>
         <p className="price">
